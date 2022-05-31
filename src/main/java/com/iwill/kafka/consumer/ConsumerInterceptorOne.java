@@ -19,7 +19,7 @@ public class ConsumerInterceptorOne implements ConsumerInterceptor<String, Strin
     }
 
     public void close() {
-
+        System.out.println("close");
     }
 
     public void configure(Map<String, ?> configs) {
